@@ -66,18 +66,18 @@ def pendu():
             st.write(f"Tentatives restantes: {st.session_state['tentatives']}") #Affichage du nombre de tentatives restantes
             #image de pendu correspondante
             if st.session_state['tentatives']==0:
-                st.image("images/p8.png")
+                st.image("p8.png")
             elif st.session_state['tentatives']==1:
-                st.image("images/p7.png")
+                st.image("p7.png")
             elif st.session_state['tentatives']==2:
-                st.image("images/p6.png")
+                st.image("p6.png")
             elif st.session_state['tentatives']==3:
-                st.image("images/p5.png")
+                st.image("p5.png")
             elif st.session_state['tentatives']==4:
-                st.image("images/p4.png")
+                st.image("p4.png")
             elif st.session_state['tentatives']==5:                    
-                st.image("images/p3.png")
+                st.image("p3.png")
             elif st.session_state['tentatives']==6:
-                st.image("images/p2.png")
+                st.image("p2.png")
             elif st.session_state['tentatives']==7:
-                st.image("images/p1.png")
+                st.image("p1.png")
