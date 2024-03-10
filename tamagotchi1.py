@@ -32,7 +32,7 @@ if st.session_state['situation'] =="debut": #si la situation est 'début'
     col1,col2,col3=st.columns(3)#division de la page en 3 colonnes
     
     #dictionnaire pour chaque oeuf avec les liens pour chaque évolution/ émotion
-    oeuf_1={'image_oeuf':'https://tamagotchi.com/wp-content/uploads/Creative.jpg' , 'image_animal':"cochon1.png" , 'heureux': "cochon2.png", 'normal':"cochon1.png", 'mal':"cochon3.png", 'laver':"laver.gif", 'dodo':"conchong.gif", 'texte':"C'est un cochon 🐷"}
+    oeuf_1={'image_oeuf':'https://tamagotchi.com/wp-content/uploads/Creative.jpg' , 'image_animal':"cochon1.png" , 'heureux': "cochon2.png", 'normal':"cochon1.png", 'mal':"cochon3.png", 'laver':"laver.gif", 'dodo':"cochong.gif", 'texte':"C'est un cochon 🐷"}
     oeuf_2={'image_oeuf':'https://tamagotchi.com/wp-content/uploads/Creative.jpg' , 'image_animal':"poulpe1.png" , 'heureux': "poulpe3.png", 'normal':"poulpe1.png", 'mal':"poulpepleur.png", 'laver':"laver_p.gif", 'dodo':"poulpeg.gif", 'texte': "C'est un poulpe 🐙"}
     oeuf_3={'image_oeuf':'https://tamagotchi.com/wp-content/uploads/Creative.jpg' , 'image_animal':"pingouin1.png" , 'heureux': "pingouinh.png", 'normal':"pingouin1.png", 'mal':"pingouinpleur.png", 'laver':"laver_ping.gif", 'dodo':"pingouin_dodoo.gif", 'texte': "C'est un pingouin 🐧"}
     if st.session_state['choix_oeuf']==None: #si aucun oeuf n'a été choisi
